@@ -1,0 +1,91 @@
+:root {
+	--primary-color: #fd0;
+	--secondary-color: #000;
+	--primary-hover: #fff;
+}
+	
+/* PRODUCT PAGE */
+/*
+/* BROADCRUMB */
+.woocommerce-breadcrumb {
+	padding: 24px 0!important;
+	background: #f52!important;
+}
+
+/* INFO CONTAINER*/
+.entry-summary {
+	padding: 0 10px!important;
+}
+
+.woocommerce-Price-amount {
+	background: #f3f4;
+}
+
+/* DESCRIPTION */
+.woocommerce-product-details__short-description {
+  padding: 20px;
+	font-size: 13px;
+	background: #fd0;
+	border-radius: 30px;
+}
+
+
+
+form.cart {
+	background: #2235f9;
+	padding: 50px 0;
+	margin: 10px 0!important;
+	border-radius: 30px;
+}
+
+/* QUANTIDADE */
+.quantity {
+	border: none;
+}
+
+.qty {
+	padding-right: 1%!important;
+}
+
+.single_add_to_cart_button {
+	margin-top: .7%!important;
+	background: var(--primary-color)!important;
+	color: var(--secondary-color)!important;
+}
+
+.single_add_to_cart_button:hover {
+	background: var(--primary-hover)!important;
+}
+
+.product_meta {
+	background: #000;
+}
+
+/* DETALHES DO PRODUTO */
+
+#tab-title-description, #tab-title-additional_information, #tab-title-reviews {
+	border: none;
+	margin-right: 1%;
+	background: var(--primary-color);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before, .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+	border: none!important;
+}
+
+.active#tab-title-description, .active#tab-title-additional_information, .active#tab-title-reviews {
+	background: #fff;
+}
+
+#tab-description {
+	background: #fd0;
+}
+
+/* FOOTER FIXO NÃO FUNCIONANDO
+.elementor-location-footer {
+width: 100%;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+*/
